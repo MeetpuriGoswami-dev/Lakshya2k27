@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lakshya 2027 | College Tech Fest</title>
+  <meta name="description" content="Lakshya 2027, the college tech fest. Pick your target. Hit it." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  <link rel="apple-touch-icon" href="assets/logo.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark"></span>Lakshya</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a><a href="events.html">Events</a><a
+          href="register.html">Register</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch between light and dark mode">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.5" />
+            <path d="M12 3a9 9 0 000 18z" fill="currentColor" />
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1 class="hero-title">Lakshya<span class="year-sticker">2027</span></h1>
+          <p class="tagline">The Legacy of Innovation.</p>
+          <p class="event-meta">
+            Hackathons, robots, bands and a campus relay, over three days.<br />20-22 March 2027,
+            on our campus (placeholder dates).
+          </p>
+          <div class="countdown" id="countdown" aria-label="Time until the event starts">
+            <div class="time-box"><strong id="countdown-days">00</strong><span>days</span></div>
+            <div class="time-box"><strong id="countdown-hours">00</strong><span>hours</span></div>
+            <div class="time-box">
+              <strong id="countdown-minutes">00</strong><span>minutes</span>
+            </div>
+            <div class="time-box">
+              <strong id="countdown-seconds">00</strong><span>seconds</span>
+            </div>
+          </div>
+          <div class="button-row">
+            <a class="button" href="#about">About Lakshya</a>
+            <a class="button button-light" href="register.html">Register now</a>
+          </div>
+        </div>
+        <img class="hero-illustration" src="assets/hero-robot.png"
+          alt="Lakshya mascot robot holding a laptop surrounded by coding, trophy, and analytics icons" />
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div>
+          <h2>About Lakshya</h2>
+          <p class="lead">The Legacy of Innovation.</p>
+          <p>
+            Lakshya 2.0, a national-level technical festival of L.D. College of Engineering, Bringing together students
+            from across the country, it celebrated technology, creativity and engineering through competitions,
+            workshops, exhibitions and hackathons.
+          <p> Lakshya 2.0 — Honouring the legacy. Inspiring the next innovation.</p>
+
+          </p>
+        </div>
+        <div>
+          <div class="category-strip">
+            <span class="category-dot dot-blue"></span>
+            <div>
+              <h3>Technical</h3>
+              <p>Hackathon, coding contest and a robot race.</p>
+            </div>
+          </div>
+          <div class="category-strip">
+            <span class="category-dot dot-red"></span>
+            <div>
+              <h3>Cultural</h3>
+              <p>Live bands, dance and a digital art jam.</p>
+            </div>
+          </div>
+          <div class="category-strip">
+            <span class="category-dot dot-gold"></span>
+            <div>
+              <h3>Sports</h3>
+              <p>Esports knockouts and a campus relay.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="container two-column">
+        <div>
+          <h2>Schedule</h2>
+          <ul class="schedule-list">
+            <li>
+              <b class="day-badge">Day 1</b>
+              <p>Opening ceremony, hackathon kickoff and quiz rounds.</p>
+            </li>
+            <li>
+              <b class="day-badge">Day 2</b>
+              <p>Robot race, coding contest and sports finals.</p>
+            </li>
+            <li>
+              <b class="day-badge">Day 3</b>
+              <p>Cultural night, prizes and closing.</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>FAQ</h2>
+          <details class="faq-item">
+            <summary>Who can take part?</summary>
+            <p>Any college student. Use the Register page and add your college name.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does it cost anything?</summary>
+            <p>Placeholder answer: the organisers will announce fees.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I join more than one event?</summary>
+            <p>Yes, as long as the timings do not clash.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html"><span class="brand-mark"></span>Lakshya</a>
+          <p>
+            Contact: <a href="mailto:lakshya@example.com">lakshya@example.com</a> | +91 90000
+            00000
+          </p>
+        </div>
+        <ul class="footer-links">
+          <li>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+          </li>
+          <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </div>
+      <p class="footer-note">
+        &copy; 2027 Lakshya. Dates, contact details and event names are placeholders.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
